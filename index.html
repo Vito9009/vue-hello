@@ -7,7 +7,11 @@
     <title>Vue hello</title>
 </head>
 <body>
-    
+    <div id="container">
+        <h1>{{ message }}</h1>
+
+        <img v-bind:src="myImg" alt="">
+    </div>
       
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <script src="js/myscript.js"></script>
